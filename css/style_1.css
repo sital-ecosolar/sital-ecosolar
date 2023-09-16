@@ -1,0 +1,708 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wc-product { 
+	background-color:#F8F0F1;
+	padding:5px;
+	margin-bottom:12px;
+}
+.wc-product img {
+	width:100%;
+	height:auto;
+}
+.wc-product .wc-product-title {
+	font-size:18px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:15px 20px;
+}
+.wc_order_status_form {
+	text-align:center;
+	margin:auto;
+	max-width:650px !important;
+}
+.form-message.orderstatusholder {
+    max-width:700px !important;
+    margin:auto;
+    margin-top:15px;
+}
+.wc_order_status_form input[type=text] {
+	margin-bottom:25px;
+	padding:25px;
+	text-align:center;
+}
+.wc_order_status_form input[type=submit] {
+	margin:auto;
+}
+.form-message {
+	margin-top:25px;
+}
+.form-message .callout.success {
+    background-color: #e1faea;
+    color: #0a0a0a;
+}
+.form-message .callout {
+    position: relative;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    border: 1px solid rgba(10,10,10,.25);
+    border-radius: 0;
+    background-color: #fff;
+    color: #0a0a0a;
+}
+.form-message input {
+    padding: 0px !important;
+    background: none !important;
+    display: inline;
+    border: 0px !important;
+    display: paragraph !important;
+	margin: 0px !important;
+}
+.wc_order_status_form form input[type=text]:focus {
+	border:2px solid #0a0a0a !important;
+}
+.form-message .delme {
+	display:none;
+}
+.invoice_totals {
+    margin-bottom: 25px;
+}
+.myaccount.sidebar .widget h2 {
+    position: relative;
+    font-size: 20px;
+    padding: 16px 18px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #f7efef;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #f2f2f2;
+}
+.myaccount.sidebar .widget-content {
+    padding: 18px;
+}
+.myaccount.sidebar .widget ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.myaccount.sidebar .widget ul li {
+	border-bottom: 1px solid #ededed;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.myaccount.sidebar .widget ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.myaccount.sidebar .widget ul li:first-child {
+    padding-top: 0px;
+}
+.myaccount.sidebar .widget ul li:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+.jobs_table_list {
+	margin-top:35px;
+}
+.startNewJob {
+    padding:40px;
+}
+.select2.select2-container {
+    width:100%;
+    display:block;
+}
+.startNewJob .addNewCustomer {
+    display:none;
+}
+.displayBlock {
+    display:block !important;
+}
+ul.order_notes {
+    padding: 2px 0 0;
+    margin-left:0px;
+    list-style:none;
+}
+ul.order_notes li {
+    padding: 15px 10px;
+	position:relative;
+}
+ul.order_notes li p.meta {
+    font-size:11px;
+}
+ul.order_notes li .note_content {
+    padding: 12px;
+    background: #f7f7f7;
+    position: relative;
+}
+ul.order_notes li .note_content p {
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+ul.order_notes li .note_content::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: #f7f7f7 transparent;
+}
+.note .typelabel {
+	float: right;
+    text-transform: capitalize;
+    background-color: #2271b1;
+    color: #FFF;
+    padding: 3px 12px;
+    border-radius: 3px;
+	position:absolute;
+	top:-12px;
+	right:0px;
+}
+.note_private .typelabel {
+	background-color:#f6f7f7;
+	color:red;
+}
+.wcCrShowHideHistory {
+    background-color:#FFF;
+    margin-bottom:15px;
+    display:none;
+}
+.wcCrJobHistoryHideShowBtn {
+    display: block;
+    width: 100%;
+    background-color: #2271b1;
+    color: #FFF;
+    padding: 5px 10px;
+    text-align: right;
+}
+.wcCrJobHistoryHideShowBtn:hover,
+.wcCrJobHistoryHideShowBtn:focus {
+     background-color:#fd6742;
+     color:#FFF;
+ }
+
+ .invoice-box {
+	max-width: 700px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+	font-size: 12px;
+	line-height: 1.4;
+	color: #555;
+	background-color:#FFF;
+}
+.invoice-box table {
+	width: 100%;
+	line-height: inherit;
+	text-align: left;
+}
+.invoice-box table td {
+	padding: 5px;
+	vertical-align: top;
+}
+.invoice-box table tr td:nth-child(2) {
+	text-align: right;
+}
+.invoice-box table .special_head td:nth-child(2) {
+	text-align:left;
+}
+.invoice-box table tr.top table td {
+	padding-bottom: 5px;
+}
+.invoice-box table tr.top table td.title {
+	font-size: 45px;
+	line-height: 45px;
+	color: #333;
+}
+.invoice-box table tr.information table td {
+	padding-bottom: 15px;
+}
+.invoice-box table tr.heading td {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+}
+.invoice-box table tr.details td {
+	padding-bottom: 20px;
+}
+.invoice-box table tr.item-row td{
+	border-bottom: 1px solid #eee;
+}
+.invoice-box table tr.total td:nth-child(2) {
+	border-top: 2px solid #eee;
+	font-weight: bold;
+}
+.invoice-box table tr.item-row .delme {
+	display:none;
+}
+.invoice-box table tr.item-row td:nth-child(2) {
+	text-align:left;
+}
+.invoice-box table tr.item-row td:last-child {
+	text-align:right;
+}
+.invoice-box table tr.item-row td input {
+	background:transparent;
+	margin:0px;
+	width:auto;
+	padding:0px;
+	height:auto;
+	border:0px;
+	max-width:70px;
+	min-width:auto;
+}
+.invoice-box table tr.item-row:last-child > td {
+	border-bottom:0px;
+}
+.invoice_totals table {
+	border:1px solid #ededed;
+	max-width:350px;
+	text-align:right;
+	float:right;
+	margin-bottom:15px;
+}
+.invoice_totals:after {
+	clear:both;
+	display:table;
+	content:"";
+}
+.invoice-box:after {
+	clear:both;
+	display:table;
+	content:"";
+}
+.rp-hr-line {
+	width:100%;
+	border-top:1px solid #ededed;
+	
+}
+.invoice-box table,
+.invoice-box table tr,
+.invoice-box table tr td,
+.invoice-items, 
+.invoice_totals,
+.invoice_headers,
+.invoice_headers p {
+	font-size:12px;
+	line-height:1.4;
+}
+.invoice_headers h2 {
+	font-size:15px;
+}
+
+/***
+ * My Booking Styles
+ **/
+.wc_rb_mb_wrap {
+	margin-bottom:80px;
+}
+.wc_rb_mb_section {
+	border:1px solid #ededed;
+	margin-bottom:30px;
+}
+.wc_rb_mb_head {
+	background-color:#fd6742;
+	padding:15px 25px;
+}
+.wc_rb_mb_head h2 {
+	color:#FFF;
+	margin-bottom:0px !important;
+	font-size:22px;
+}
+.wc_rb_mb_body {
+	background-color:#F7f7f7;
+	padding:25px !important;
+	position:relative;
+}
+.wc_rb_mb_section:after {
+	clear:both;
+	display:table;
+	content: "";
+}
+.wc_rb_mb_section ul.accordion {
+	padding-left:0px;
+	margin-bottom:0px;
+	background-color:transparent;
+}
+.wc_rb_mb_section ul.accordion .accordion-title {
+	text-align:left;
+	font-size:20px;
+	padding:12px 15px;
+	background-color:#FFF;
+	color:#666;
+}
+.wc_rb_mb_section ul.accordion .accordion-item {
+	margin-top:6px;
+	margin-bottom:6px;
+}
+.wc_rb_mb_section ul.accordion ul.manufacture_list li {
+	background-color:#F7F7F7;
+}
+.wcrb_payment_links {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+.wcrb_payment_links {
+	flex:auto;
+	margin:4px;
+}
+.wcrb_payment_links a {
+	flex:auto;
+	margin:3px;
+}
+.wc_rb_mb_body .device-booking-row {
+	display:flex;
+	column-gap: 15px;
+}
+.wc_rb_mb_body .device-booking-row .device-item-b {
+	flex-grow: 1;
+}
+ul.dtypes_list,
+ul.manufacture_list {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+ul.dtypes_list li,
+ul.manufacture_list li {
+	display:inline-block;
+	background-color:#FFF;
+	border-radius:20px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul.dtypes_list li:first-child,
+ul.manufacture_list li:frst-child {
+	margin-left:0px;
+}
+ul.dtypes_list li a,
+ul.manufacture_list li a {
+	padding: 15px;
+    min-width: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.manufacture_list li a img,
+ul.manufacture_list li a h3 {
+	margin-bottom:0px;
+	line-height:65px;
+	height:65px;
+	width:auto;
+}
+ul.dtypes_list li a img,
+ul.dtypes_list li a h3 {
+	margin-bottom:0px;
+	line-height:110px;
+	height:110px;
+	width:auto;
+}
+ul.dtypes_list li a.selected,
+ul.manufacture_list li a.selected {
+	background-color:#fd6742;
+}
+.loader {
+	border: 8px solid #ededed; /* Light grey */
+	border-top: 8px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	animation: spin 2s linear infinite;
+	margin:auto;
+}
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+ul.wc_service_radio li input[type=radio] {
+	margin-bottom:0px;
+}
+ul.wc_service_radio li {
+	width: 50%;
+    text-align: left;
+    padding: 15px 25px;
+}
+ul.wc_service_radio li label {
+	display:flex;
+	column-gap:30px;
+	align-items: center;
+  justify-content: center;
+
+}
+ul.wc_service_radio li label span:last-child {
+	margin-left:auto;
+}
+.wc_rb_mb_body input[type=email],
+.wc_rb_mb_body textarea,
+.wc_rb_mb_body input[type=text] {
+	background-color:#FFF;
+}
+.displayNone {
+	display:none !important;
+}
+@media screen and (max-width:847px) {
+	.jobs_table_list {
+		overflow-x: scroll;
+	}
+}
+@media print {    
+	.ticket-box,
+	.invoice-box {
+		width:100% !important;
+		max-width:100% !important;
+		/*margin: auto;*/
+		padding: 0px;
+		border: 0px !important;
+		box-shadow: 0px 0px 0px 0px !important;
+		background-color:transparent;
+		float:left;
+	}
+	.heading.special_head {
+		background:#cccccc !important;
+		font-weight:bold;
+	}
+	table {
+		margin-bottom:0px !important;
+	}
+	html.wp-toolbar {
+		padding-top:0px;
+	}
+	#wpfooter, #adminmenuwrap, #adminmenuwrap *, #adminmenuback, #adminmenuback *{
+		display: none !important;
+		width:0px;
+	}
+	a.delme,
+	.hidden-print,
+    .hidden-print * {
+        display: none !important;
+    }
+}
+.wcrbfd .mb-twenty {
+	margin-bottom:20px;
+}
+.wcrbfd .column-wc_order_status select {
+	max-width:100%;
+}
+.wcrbfd .wcrb_dashboard_section {
+	background-color:#f7f7f7;
+	border:1px solid #ededed;
+	border-radius:10px;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:15px;
+}
+.wcrbfd .wcrb_dashboard_section:after {
+	display:table;
+	clear:both;
+	width:100%;
+	content:'';
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item:first-child {
+	margin-left:0px;
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item:last-child {
+	margin-right:0px;
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item {
+	width:115px;
+	margin-left:6px;
+	margin-right:6px;
+	background-color:#FFF;
+	border-radius:10px;
+	text-align:center;
+	float:left;
+	margin-top:6px;
+	margin-bottom:6px;
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item img {
+	padding:20px;
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item h3 {
+	margin-bottom:0px;
+	margin-top:0px;
+	padding:6px 0px;
+	border-top:1px solid #ededed;
+	font-size:13px;
+	background-color:#fd6742;
+	color:#FFF;
+	border-radius:0px 0px 10px 10px;
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item a {
+	text-decoration:none;
+	display:block;
+}
+.wcrbfd .wcrb_dashboard_section .wcrb_dan_item a:hover > h3 {
+	background-color:#063e70;
+}
+.wcrbfd .wcrb_widget {
+    background: #fff;
+    border-radius: 0;
+    border: none;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+.wcrbfd .wcrb_widget a {
+	text-decoration: none;
+	display:block;
+}
+.wcrbfd .wcrb_widget a:hover > .wcrb_widget-body {
+	background-color:#ededed;
+}
+.wcrbfd .wcrb_has-shadow {
+    box-shadow: 0 1px 15px 1px rgb(52 40 104 / 8%);
+}
+.wcrbfd .wcrb_widget-12 .wcrb_widget-body {
+    position: relative;
+    overflow: hidden;
+}
+.wcrbfd .wcrb_widget-body {
+    padding: 1.4rem;
+}
+.wcrbfd .wcrb_media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.wcrbfd .wcrb_ml-5, .wcrb_mx-5 {
+    margin-left: 1.1rem!important;
+}
+.wcrbfd .wcrb_mr-5, .wcrb_mx-5 {
+    margin-right: 1.1rem!important;
+}
+.wcrbfd .wcrb_align-self-center {
+    -ms-flex-item-align: center!important;
+    align-self: center!important;
+}
+.wcrbfd .wcrb_widget-12 img {
+    height: 4rem;
+	width:auto;
+}
+.wcrbfd .wcrb_media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.wcrbfd .wcrb_widget-12 .wcrb_title {
+    color: #2c304d;
+    font-size: 1.2rem;
+	line-height:1.5;
+	font-weight:600;
+}
+.wcrbfd .wcrb_widget-12 .wcrb_number {
+    font-size: 1rem;
+	line-height:1.5;
+}
+.wcrbfd .the-brand-logo {
+	padding:15px;
+	background-color:#FFF;
+	margin-bottom:5px;
+	border:1px solid #e6e6e6;
+}
+.wcrbfd .tabs-content .form-table td fieldset label {
+	margin-right:0.5em !important;
+}
+.wcrbfd .medium-2.sidebarmenu {
+	max-width:200px;
+}
+.wcrbfd.computer-repair .tabs-panel {
+	padding:30px;
+}
+.wcrbfd.computer-repair li.external-title a h2,
+.wcrbfd.computer-repair li.tabs-title a h2 {
+	font-size:14px;
+	color:#FFF;
+	text-decoration: none;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.wcrbfd.computer-repair li.external-title,
+.wcrbfd.computer-repair li.tabs-title {
+	margin-bottom:0px;
+}
+.wcrbfd.computer-repair li.external-title a,
+.wcrbfd.computer-repair li.tabs-title a {
+	padding:0.875rem 1rem;
+	display:block;
+	text-decoration: none;
+}
+.wcrbfd.computer-repair li.external-title > a:hover,
+.wcrbfd.computer-repair .tabs-title > a:hover,
+.wcrbfd.computer-repair .tabs-title > a:focus, 
+.wcrbfd.computer-repair .tabs-title > a[aria-selected='true'] {
+	background-color:#fd6742;
+}
+.wcrbfd.computer-repair .tabs {
+	border:0px;	
+}
+.wcrbfd .thebluebg {
+	background-color:#063e70;
+}
+.wcrbfd .thewhitebg {
+	background-color:#FFFFFF;
+}
+.mt-25 {
+	margin-top:25px !important;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.jobAttachments {
+	background-color:#FFF;
+	border:1px solid #ededed;
+	padding:15px;
+	margin:15px 0px;
+	border-radius:10px;
+}
+.jobAttachments img {
+	width:40px;
+	height:auto;
+	margin:0px 15px;
+}
+@media screen and (max-width:425px) {
+	ul.dtypes_list li a img,
+    ul.dtypes_list li a h3 {
+		margin-bottom: 0px;
+		line-height: 110px;
+		height: 80px;
+		width: auto;
+		object-fit: contain;
+	}
+	ul.dtypes_list li,
+    ul.manufacture_list li {
+		display: inline-block;
+		background-color: #FFF;
+		border-radius: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		flex: 0 0 30.33%;
+		max-width: 30.33%;
+	}
+	ul.dtypes_list, ul.manufacture_list {
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: unset;
+	}
+}
