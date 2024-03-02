@@ -1052,11 +1052,11 @@ ul.menu {
 
 .banner-text-two:before,
 .banner-text-one:before {
-  background-color: rgba(238, 242, 246, 0.4);
+  /* background-color: rgba(238, 242, 246, 0.4); */
 }
 
 .banner-text-one:after {
-  background-image: url("../images/solar-img.webp");
+  background-image: url("../images/hero_img4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1064,7 +1064,7 @@ ul.menu {
 }
 
 .banner-text-two:after {
-  background-image: url("../images/hero_img1.jpg");
+  background-image: url("../images/hero_img3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
